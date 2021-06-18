@@ -4,6 +4,7 @@
 //
 //  Created by 정성훈 on 2021/06/18.
 //
+// from: https://developer.apple.com/documentation/uikit/views_and_controls/collection_views/implementing_modern_collection_views
 
 import UIKit
 

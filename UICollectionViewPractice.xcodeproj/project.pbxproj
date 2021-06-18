@@ -14,6 +14,8 @@
 		406BD9DD267CE16F0005F298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406BD9DC267CE16F0005F298 /* Assets.xcassets */; };
 		406BD9E0267CE16F0005F298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406BD9DE267CE16F0005F298 /* LaunchScreen.storyboard */; };
 		406BD9E8267CE3860005F298 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406BD9E7267CE3860005F298 /* TextCell.swift */; };
+		406BD9EA267CFAE10005F298 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406BD9E9267CFAE10005F298 /* ListCell.swift */; };
+		406BD9ED267CFAFD0005F298 /* DistinctSectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406BD9EC267CFAFD0005F298 /* DistinctSectionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		406BD9DF267CE16F0005F298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		406BD9E1267CE16F0005F298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		406BD9E7267CE3860005F298 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		406BD9E9267CFAE10005F298 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		406BD9EC267CFAFD0005F298 /* DistinctSectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistinctSectionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +62,26 @@
 		406BD9D2267CE16D0005F298 /* UICollectionViewPractice */ = {
 			isa = PBXGroup;
 			children = (
+				406BD9EB267CFAEA0005F298 /* Cells */,
 				406BD9D3267CE16D0005F298 /* AppDelegate.swift */,
 				406BD9D5267CE16D0005F298 /* SceneDelegate.swift */,
 				406BD9D7267CE16D0005F298 /* GridViewController.swift */,
-				406BD9E7267CE3860005F298 /* TextCell.swift */,
+				406BD9EC267CFAFD0005F298 /* DistinctSectionsViewController.swift */,
 				406BD9D9267CE16D0005F298 /* Main.storyboard */,
 				406BD9DC267CE16F0005F298 /* Assets.xcassets */,
 				406BD9DE267CE16F0005F298 /* LaunchScreen.storyboard */,
 				406BD9E1267CE16F0005F298 /* Info.plist */,
 			);
 			path = UICollectionViewPractice;
+			sourceTree = "<group>";
+		};
+		406BD9EB267CFAEA0005F298 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				406BD9E7267CE3860005F298 /* TextCell.swift */,
+				406BD9E9267CFAE10005F298 /* ListCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406BD9ED267CFAFD0005F298 /* DistinctSectionsViewController.swift in Sources */,
 				406BD9D8267CE16D0005F298 /* GridViewController.swift in Sources */,
 				406BD9D4267CE16D0005F298 /* AppDelegate.swift in Sources */,
 				406BD9E8267CE3860005F298 /* TextCell.swift in Sources */,
+				406BD9EA267CFAE10005F298 /* ListCell.swift in Sources */,
 				406BD9D6267CE16D0005F298 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

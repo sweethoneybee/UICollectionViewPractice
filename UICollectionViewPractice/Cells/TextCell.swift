@@ -1,9 +1,9 @@
-//
-//  TextCell.swift
-//  UICollectionViewPractice
-//
-//  Created by 정성훈 on 2021/06/18.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+Generic text cell
+*/
 
 import UIKit
 
