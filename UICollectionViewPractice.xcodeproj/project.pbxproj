@@ -20,6 +20,7 @@
 		406BD9F2267EC2730005F298 /* MountainsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406BD9F1267EC2730005F298 /* MountainsController.swift */; };
 		406BD9F4267F2C830005F298 /* MountainsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406BD9F3267F2C830005F298 /* MountainsViewController.swift */; };
 		406BD9F6267F31870005F298 /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406BD9F5267F31870005F298 /* LabelCell.swift */; };
+		40F3507E2680C60600A44A42 /* NestedGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F3507D2680C60600A44A42 /* NestedGroupsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		406BD9F1267EC2730005F298 /* MountainsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainsController.swift; sourceTree = "<group>"; };
 		406BD9F3267F2C830005F298 /* MountainsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainsViewController.swift; sourceTree = "<group>"; };
 		406BD9F5267F31870005F298 /* LabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
+		40F3507D2680C60600A44A42 /* NestedGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedGroupsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				406BD9D5267CE16D0005F298 /* SceneDelegate.swift */,
 				406BD9D7267CE16D0005F298 /* GridViewController.swift */,
 				406BD9EC267CFAFD0005F298 /* DistinctSectionsViewController.swift */,
+				40F3507D2680C60600A44A42 /* NestedGroupsViewController.swift */,
 				406BD9D9267CE16D0005F298 /* Main.storyboard */,
 				406BD9DC267CE16F0005F298 /* Assets.xcassets */,
 				406BD9DE267CE16F0005F298 /* LaunchScreen.storyboard */,
@@ -181,6 +184,7 @@
 				406BD9D8267CE16D0005F298 /* GridViewController.swift in Sources */,
 				406BD9D4267CE16D0005F298 /* AppDelegate.swift in Sources */,
 				406BD9E8267CE3860005F298 /* TextCell.swift in Sources */,
+				40F3507E2680C60600A44A42 /* NestedGroupsViewController.swift in Sources */,
 				406BD9EA267CFAE10005F298 /* ListCell.swift in Sources */,
 				406BD9F6267F31870005F298 /* LabelCell.swift in Sources */,
 				406BD9D6267CE16D0005F298 /* SceneDelegate.swift in Sources */,
