@@ -21,6 +21,7 @@
 		406BD9F4267F2C830005F298 /* MountainsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406BD9F3267F2C830005F298 /* MountainsViewController.swift */; };
 		406BD9F6267F31870005F298 /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406BD9F5267F31870005F298 /* LabelCell.swift */; };
 		40F3507E2680C60600A44A42 /* NestedGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F3507D2680C60600A44A42 /* NestedGroupsViewController.swift */; };
+		40F350802680FA9E00A44A42 /* TwoColumnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F3507F2680FA9E00A44A42 /* TwoColumnViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		406BD9F3267F2C830005F298 /* MountainsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainsViewController.swift; sourceTree = "<group>"; };
 		406BD9F5267F31870005F298 /* LabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
 		40F3507D2680C60600A44A42 /* NestedGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedGroupsViewController.swift; sourceTree = "<group>"; };
+		40F3507F2680FA9E00A44A42 /* TwoColumnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoColumnViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				406BD9D3267CE16D0005F298 /* AppDelegate.swift */,
 				406BD9D5267CE16D0005F298 /* SceneDelegate.swift */,
 				406BD9D7267CE16D0005F298 /* GridViewController.swift */,
+				40F3507F2680FA9E00A44A42 /* TwoColumnViewController.swift */,
 				406BD9EC267CFAFD0005F298 /* DistinctSectionsViewController.swift */,
 				40F3507D2680C60600A44A42 /* NestedGroupsViewController.swift */,
 				406BD9D9267CE16D0005F298 /* Main.storyboard */,
@@ -180,6 +183,7 @@
 				406BD9F0267EC2510005F298 /* MountainRawData.swift in Sources */,
 				406BD9ED267CFAFD0005F298 /* DistinctSectionsViewController.swift in Sources */,
 				406BD9F2267EC2730005F298 /* MountainsController.swift in Sources */,
+				40F350802680FA9E00A44A42 /* TwoColumnViewController.swift in Sources */,
 				406BD9F4267F2C830005F298 /* MountainsViewController.swift in Sources */,
 				406BD9D8267CE16D0005F298 /* GridViewController.swift in Sources */,
 				406BD9D4267CE16D0005F298 /* AppDelegate.swift in Sources */,
